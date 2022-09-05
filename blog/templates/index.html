@@ -1,1 +1,9 @@
 <h1>Hello guys!</h1>
+
+{% for article in liste_articles %}
+
+<h2>{{article.title}} </h2>
+
+<p>{{article.desc}}</p>
+<hr>
+{% endfor %}
